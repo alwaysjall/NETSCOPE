@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtualenv
+.venv/
+venv/
+
+# Laporan hasil scan (bisa berisi data target) - folder dipertahankan lewat .gitkeep
+reports/*
+!reports/.gitkeep
+
+# Konfigurasi / rahasia lokal
+.env
+*.local.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
